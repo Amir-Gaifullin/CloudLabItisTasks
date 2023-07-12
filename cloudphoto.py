@@ -6,14 +6,6 @@ import sys
 import os
 from airium import Airium
 
-# [admin]
-# aws_access_key_id=YCAJEQyJXglyjqXySZqi2H9LJ 
-# aws_secret_access_key=YCNZ-dhUfBbss_vUSpnz10dbwS650Fn-lfo_iKcG
-
-# [uploader]
-# aws_access_key_id=YCAJEbQ2fGAkg0GISqRfObmlQ 
-# aws_secret_access_key=YCO5Au6PEfmfY9xCMxj3ZF78Q9a5qd3yy5f5l32X
-
 def initialize():
   config = configparser.ConfigParser()
   config.read('/Users/amirgaifullin/.config/cloudphoto/cloudphotorc')
